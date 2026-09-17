@@ -50,7 +50,7 @@ export default function Header() {
         <div className="flex items-center justify-between px-5 sm:px-8 lg:px-12 h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center" aria-label="The Office Hire - Home">
-            <img src="/tohlogogo.webp" alt="The Office Hire" className="h-16 sm:h-14 w-auto object-contain" />
+            <img src="/tohlogogo.webp" alt="The Office Hire" className="h-6 sm:h-10 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
@@ -102,7 +102,9 @@ export default function Header() {
         <div className="absolute inset-0 bg-black flex flex-col">
           {/* Top bar */}
           <div className="flex items-center justify-between px-5 h-16 border-b border-white/10">
-            <img src="/tohlogogo.webp" alt="The Office Hire" className="h-8 w-auto object-contain" />
+            <span className="text-[15px] font-bold tracking-tight text-white leading-none">
+              THE OFFICE HIRE
+            </span>
             <button
               onClick={() => setMenuOpen(false)}
               className="flex items-center justify-center w-10 h-10 -mr-2 text-white"
