@@ -9,10 +9,10 @@ import { useReveal } from '@/hooks/useReveal';
 import { IMAGES } from '@/data/images';
 
 const FOUNDERS = [
-  { num: '01', name: 'Founder Name', role: 'Founder & Director', bio: 'Short biography placeholder. Replace with the founder\'s background, experience, and focus areas.', image: IMAGES.founder1 },
-  { num: '02', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder. Replace with the founder\'s background, experience, and focus areas.', image: IMAGES.founder2 },
-  { num: '03', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder. Replace with the founder\'s background, experience, and focus areas.', image: IMAGES.founder3 },
-  { num: '04', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder. Replace with the founder\'s background, experience, and focus areas.', image: IMAGES.founder4 },
+  { num: '01', name: 'Founder Name', role: 'Founder & Director', bio: 'Short biography placeholder.', image: IMAGES.founder1 },
+  { num: '02', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder2 },
+  { num: '03', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder3 },
+  { num: '04', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder4 },
 ];
 
 const APPROACH = [
@@ -137,10 +137,6 @@ export default function About() {
                 <FounderCard key={founder.num} founder={founder} />
               ))}
             </div>
-
-            <p className="text-sm text-grey mt-12">
-              Founder details are placeholders. Replace names, titles, photos, and biographies with the actual information.
-            </p>
           </div>
         </section>
 
