@@ -91,7 +91,7 @@ export default function Contact() {
                     <div>
                       <p className="text-label uppercase tracking-[0.15em] text-grey mb-2">Employers</p>
                       <a href="mailto:hello@theofficehire.com" className="text-body-lg text-black hover:text-grey transition-colors duration-200">
-                        hello@theofficehire.com
+                        info@theofficehire.com
                       </a>
                     </div>
                     <div>
