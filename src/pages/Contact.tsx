@@ -97,13 +97,13 @@ export default function Contact() {
                     <div>
                       <p className="text-label uppercase tracking-[0.15em] text-grey mb-2">Job Seekers</p>
                       <a href="mailto:hello@theofficehire.com" className="text-body-lg text-black hover:text-grey transition-colors duration-200">
-                        hello@theofficehire.com
+                        info@theofficehire.com
                       </a>
                     </div>
                     <div>
                       <p className="text-label uppercase tracking-[0.15em] text-grey mb-2">General Enquiries</p>
-                      <a href="tel:+910000000000" className="block text-body-lg text-black hover:text-grey transition-colors duration-200">
-                        +91 XXXXX XXXXX
+                      <a href="tel:+919211023617" className="block text-body-lg text-black hover:text-grey transition-colors duration-200">
+                        +91 92110 23617
                       </a>
                       <p className="text-body-lg text-grey-dark mt-1">
                         City, India
