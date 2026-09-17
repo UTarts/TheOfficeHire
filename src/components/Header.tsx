@@ -73,23 +73,25 @@ export default function Header() {
             })}
           </nav>
 
-          {/* Desktop CTA */}
-          <Link
-            to="/contact"
-            className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 bg-black text-white text-[12px] font-medium uppercase tracking-[0.12em] transition-all duration-300 hover:bg-white hover:text-black border border-black"
-          >
-            Get in Touch
-            <span className="text-sm">→</span>
-          </Link>
+          {/* Right Actions: CTA & Mobile Menu */}
+          <div className="flex items-center gap-2 sm:gap-4">
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-1.5 px-3 py-2 lg:gap-2 lg:px-5 lg:py-2.5 bg-black text-white text-[10px] lg:text-[12px] font-medium uppercase tracking-[0.12em] transition-all duration-300 hover:bg-white hover:text-black border border-black"
+            >
+              Get in Touch
+              <span className="text-sm hidden sm:inline-block"> </span>
+            </Link>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMenuOpen(true)}
-            className="lg:hidden flex items-center justify-center w-10 h-10 -mr-2"
-            aria-label="Open menu"
-          >
-            <Menu size={22} strokeWidth={1.5} />
-          </button>
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMenuOpen(true)}
+              className="lg:hidden flex items-center justify-center w-10 h-10 -mr-2"
+              aria-label="Open menu"
+            >
+              <Menu size={22} strokeWidth={1.5} />
+            </button>
+          </div>
         </div>
       </header>
 
