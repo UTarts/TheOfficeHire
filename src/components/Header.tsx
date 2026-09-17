@@ -50,7 +50,7 @@ export default function Header() {
         <div className="flex items-center justify-between px-5 sm:px-8 lg:px-12 h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center" aria-label="The Office Hire - Home">
-            <img src="/tohlogogo.webp" alt="The Office Hire" className="h-8 sm:h-14 w-auto object-contain" />
+            <img src="/tohlogogo.webp" alt="The Office Hire" className="h-10 sm:h-14 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
