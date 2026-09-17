@@ -131,8 +131,8 @@ export default function About() {
               </h2>
             </Reveal>
 
-            {/* Desktop: 2x2 grid, Mobile: stacked */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 lg:gap-16">
+            {/* Desktop: 4 columns, Mobile: 2 columns */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
               {FOUNDERS.map((founder) => (
                 <FounderCard key={founder.num} founder={founder} />
               ))}
