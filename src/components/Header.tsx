@@ -77,7 +77,7 @@ export default function Header() {
           <div className="flex items-center gap-2 sm:gap-4">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-1.5 px-3 py-2 lg:gap-2 lg:px-5 lg:py-2.5 bg-black text-white text-[10px] lg:text-[12px] font-medium uppercase tracking-[0.12em] transition-all duration-300 hover:bg-white hover:text-black border border-black"
+              className="inline-flex items-center gap-1.5 px-2 py-1 lg:gap-2 lg:px-5 lg:py-2.5 bg-black text-white text-[10px] lg:text-[12px] font-medium uppercase tracking-[0.12em] transition-all duration-300 hover:bg-white hover:text-black border border-black"
             >
               Get in Touch
               <span className="text-sm hidden sm:inline-block"> </span>
