@@ -91,11 +91,26 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12 py-6 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-4">
           <p className="text-label-sm uppercase tracking-[0.15em] text-white/40">
-            © {new Date().getFullYear()} The Office Hire
+              {new Date().getFullYear()} The Office Hire
           </p>
-          <div className="flex gap-6">
+
+          {/* UT Arts Branding */}
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-white/40">Powered by</span>
+            <a href="https://www.utarts.in" target="_blank" rel="noopener noreferrer" className="font-bold text-orange-500 hover:text-orange-700 transition-colors flex items-center gap-1.5">
+              <img alt="UT Arts Logo" className="h-6 w-6 rounded-full object-cover border border-gray-200" src="https://www.utarts.in/images/UTArt_Logo.webp" />
+              UT Arts
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link" aria-hidden="true">
+                <path d="M15 3h6v6"></path>
+                <path d="M10 14 21 3"></path>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              </svg>
+            </a>
+          </div>
+
+          <div className="flex flex-wrap gap-4 sm:gap-6">
             <Link to="/contact" className="text-label-sm uppercase tracking-[0.15em] text-white/40 hover:text-white transition-colors duration-200">
               Privacy Policy
             </Link>
