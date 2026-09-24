@@ -99,7 +99,7 @@ export default function Footer() {
           {/* UT Arts Branding */}
           <div className="flex items-center gap-3">
             <span className="text-xs text-white/40">Powered by</span>
-            <a href="https://www.utarts.in" target="_blank" rel="noopener noreferrer" className="font-bold text-orange-500 hover:text-orange-700 transition-colors flex items-center gap-1.5">
+            <a href="https://www.utarts.in" target="_blank" rel="noopener noreferrer" className="font-bold text-white-500 hover:text-white-700 transition-colors flex items-center gap-1.5">
               <img alt="UT Arts Logo" className="h-6 w-6 rounded-full object-cover border border-gray-200" src="https://www.utarts.in/images/UTArt_Logo.webp" />
               UT Arts
               <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-external-link" aria-hidden="true">
