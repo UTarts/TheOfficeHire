@@ -68,16 +68,13 @@ export default function Employers() {
             </Reveal>
             <Reveal delay={1}>
               <h2 className="text-display font-bold tracking-tight mt-4 mb-12 lg:mb-16">
-                What We
-                <br />
-                Help With
+                Our Services
               </h2>
             </Reveal>
             <div className="border-b border-black/10">
-              <ServiceRow number="01" title="Source" description="We identify and reach people who fit your requirements." />
-              <ServiceRow number="02" title="Screen" description="We review profiles and assess candidates for quality and fit." />
-              <ServiceRow number="03" title="Shortlist" description="We present the most suitable candidates for your consideration." />
-              <ServiceRow number="04" title="Recruitment Support" description="We facilitate the process from introduction to connection." />
+              <ServiceRow number="01" title="HYT- Hire Your Team" description="TO HIRE YOUR COMPLETE TEAM WITH OUR HYT PACKAGE, THIS SERVICE PROVIDES YOU A HASSLE FREE HIRING PROCESS FOR YOUR BUSINESS" />
+              <ServiceRow number="02" title="Hire Us As Your HR" description="Your Vision, Our Vetting: Building Teams That Perform" />
+              <ServiceRow number="03" title="Hire The “One”" description="Targeted Recruitment, Flat Pricing, Zero Hassle." />
             </div>
           </div>
         </section>
@@ -92,18 +89,16 @@ export default function Employers() {
                 </Reveal>
                 <Reveal delay={1}>
                   <h2 className="text-display font-bold tracking-tight mt-4">
-                    How We
+                    Our Golden
                     <br />
-                    Work
+                    Rule
                   </h2>
                 </Reveal>
               </div>
               <div className="lg:col-span-7 lg:col-start-6">
-                <ProcessStep number="01" title="Understand" description="We learn about your role, team, and requirements." />
-                <ProcessStep number="02" title="Search" description="We identify and reach out to matching candidates." />
-                <ProcessStep number="03" title="Screen" description="We assess profiles, experience, and fit." />
-                <ProcessStep number="04" title="Shortlist" description="We present the most suitable people for your role." />
-                <ProcessStep number="05" title="Connect" description="We facilitate introductions and next steps." isLast />
+                <ProcessStep number="01" title="Shortlisting" description="We present the most suitable people for your role." />
+                <ProcessStep number="02" title="Interview" description="We interview the matching candidates." />
+                <ProcessStep number="03" title="Verification" description="We assess profiles, experience, and fit." isLast />
               </div>
             </div>
           </div>

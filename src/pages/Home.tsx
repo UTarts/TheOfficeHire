@@ -31,7 +31,7 @@ export default function Home() {
                   <h1 className="text-hero font-bold tracking-tight leading-[0.92] mt-5 mb-6">
                     WE FIND
                     <br />
-                    PEOPLE.
+                    PEOPLE & CAMPAIGNS.
                   </h1>
                 </Reveal>
                 <Reveal delay={2}>
@@ -46,6 +46,9 @@ export default function Home() {
                     </Button>
                     <Button to="/job-seekers" variant="secondary" fullWidth>
                       For Job Seekers
+                    </Button>
+                    <Button to="/employers" variant="primary" fullWidth>
+                      For PR and Social Media
                     </Button>
                   </div>
                 </Reveal>
@@ -89,9 +92,6 @@ export default function Home() {
         <section className="bg-white px-5 sm:px-8 lg:px-12 py-20 lg:py-32">
           <div className="max-w-7xl mx-auto">
             <Reveal>
-              <SectionLabel>What We Do</SectionLabel>
-            </Reveal>
-            <Reveal delay={1}>
               <h2 className="text-display font-bold tracking-tight mt-4 mb-12 lg:mb-16">
                 What We Do
               </h2>
@@ -162,16 +162,13 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
               <div className="lg:col-span-4">
                 <Reveal>
-                  <SectionLabel>How It Works</SectionLabel>
-                </Reveal>
-                <Reveal delay={1}>
                   <h2 className="text-display font-bold tracking-tight mt-4">
                     How It
                     <br />
                     Works
                   </h2>
                 </Reveal>
-                <Reveal delay={2}>
+                <Reveal delay={1}>
                   <Link
                     to="/how-it-works"
                     className="inline-flex items-center gap-2 mt-8 text-body font-medium uppercase tracking-[0.12em] text-black hover:gap-3 transition-all duration-300"
@@ -191,31 +188,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* WHY - BLACK */}
-        <section className="bg-black text-white px-5 sm:px-8 lg:px-12 py-24 lg:py-40">
-          <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <h2 className="text-display font-bold tracking-tight leading-[1.0] mb-16 lg:mb-24">
-                LESS NOISE.
-                <br />
-                MORE RELEVANCE.
-              </h2>
-            </Reveal>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-8 border-t border-white/15">
-              {[
-                { title: 'Clarity', desc: 'Understand the requirement.' },
-                { title: 'Relevance', desc: 'Focus on suitable people.' },
-                { title: 'People', desc: 'Recruitment is human.' },
-              ].map((item, i) => (
-                <Reveal key={item.title} delay={(i + 1) as 1 | 2 | 3} className="pt-8 border-t border-white/15 md:border-t-0">
-                  <h3 className="text-subhead font-bold tracking-tight mb-3">{item.title}</h3>
-                  <p className="text-body text-white/60">{item.desc}</p>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-
+    
         {/* CTA - Have a Role to Fill */}
         <CTASection
           headline={<>HAVE A ROLE<br />TO FILL?</>}
@@ -225,7 +198,7 @@ export default function Home() {
         />
 
         {/* JOB SEEKER CTA - White */}
-        <section className="bg-white px-5 sm:px-8 lg:px-12 py-20 lg:py-32">
+        <section className="bg-white px-5 sm:px-8 lg:px-12 py-20 lg:py-32 border-b border-black/30">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end">
               <div className="lg:col-span-7">
@@ -254,6 +227,13 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* CTA - PR */}
+        <CTASection
+          headline={<>HAVE A STORY<br />TO TELL?</>}
+          buttonText="Tell us about your Profession"
+          buttonTo="/contact"
+          variant="white"
+        />
       </PageLayout>
     </>
   );

@@ -9,10 +9,10 @@ import { useReveal } from '@/hooks/useReveal';
 import { IMAGES } from '@/data/images';
 
 const FOUNDERS = [
-  { num: '01', name: 'Founder Name', role: 'Founder & Director', bio: 'Short biography placeholder.', image: IMAGES.founder1 },
-  { num: '02', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder2 },
-  { num: '03', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder3 },
-  { num: '04', name: 'Founder Name', role: 'Co-Founder', bio: 'Short biography placeholder.', image: IMAGES.founder4 },
+  { num: '01', name: 'Vaidehi Singh Suryavanshi', role: 'Co-Founder', bio: 'Vaidehi leads the development of comprehensive strategic frameworks and operational blueprints at The Office Hire. By translating high-level business goals into precise, actionable execution plans, she ensures the agency scales with clarity, efficiency, and a structured approach that cuts through conventional noise.', image: IMAGES.founder1 },
+  { num: '02', name: 'Ansh Mishra', role: 'Co-Founder', bio: 'Ansh oversees the entire operational lifecycle at The Office Hire, ensuring that every moving part—from initial client intake to final execution—runs with absolute precision and zero friction. His focus is on eliminating administrative bottlenecks and streamlining workflows to consistently deliver seamless, high-impact recruitment and PR solutions.', image: IMAGES.founder2 },
+  { num: '03', name: 'Priyansh Mundra', role: 'Co-Founder', bio: "Priyansh manages the financial health and fiscal strategy of The Office Hire, balancing disciplined resource allocation with sustainable business expansion. His goal is to back the agency's creative and operational ambitions with sound financial architecture, ensuring transparency and long-term economic stability.", image: IMAGES.founder3 },
+  { num: '04', name: 'Krishna Saraswat', role: 'Co-Founder', bio: "Krishna Heads the  communications and strategic alliances, and the outlook of the organisation. building meaningful, long-term relationships with clients and collaborators. His priority is ensuring the brand's voice remains clear, authentic, and deeply aligned with the human-centric values that define how the agency operates. he also operates after media presence of the organisation.", image: IMAGES.founder4 },
 ];
 
 const APPROACH = [
@@ -37,21 +37,6 @@ function FounderCard({ founder }: { founder: typeof FOUNDERS[0] }) {
         visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
       }`}
     >
-      {/* Image */}
-      <div className="overflow-hidden aspect-[4/5] mb-5">
-        <img
-          src={founder.image}
-          alt={`${founder.role} portrait placeholder`}
-          loading="lazy"
-          className={`w-full h-full object-cover transition-all duration-[1.2s] ease-snap ${
-            visible ? 'scale-100 opacity-100' : 'scale-105 opacity-0'
-          }`}
-        />
-      </div>
-      {/* Number */}
-      <span className="text-label uppercase tracking-[0.18em] text-grey">
-        Founder {founder.num}
-      </span>
       {/* Name */}
       <h3 className="text-subhead font-bold tracking-tight mt-2 mb-1">
         {founder.name}
@@ -75,9 +60,6 @@ export default function About() {
         {/* HERO */}
         <section className="bg-white px-5 sm:px-8 lg:px-12 pt-12 pb-16 lg:pt-20 lg:pb-24">
           <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <SectionLabel>About</SectionLabel>
-            </Reveal>
             <Reveal delay={1}>
               <h1 className="text-hero font-bold tracking-tight leading-[0.92] mt-5 mb-6">
                 WE BELIEVE
@@ -98,9 +80,6 @@ export default function About() {
         {/* OUR APPROACH */}
         <section className="bg-black text-white px-5 sm:px-8 lg:px-12 py-20 lg:py-32">
           <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <SectionLabel variant="light">Our Approach</SectionLabel>
-            </Reveal>
             <Reveal delay={1}>
               <h2 className="text-display font-bold tracking-tight mt-4 mb-12 lg:mb-16">
                 Our Approach
@@ -143,9 +122,6 @@ export default function About() {
         {/* WHY US */}
         <section className="bg-white-light px-5 sm:px-8 lg:px-12 py-20 lg:py-32">
           <div className="max-w-7xl mx-auto">
-            <Reveal>
-              <SectionLabel>Why Us</SectionLabel>
-            </Reveal>
             <Reveal delay={1}>
               <h2 className="text-display font-bold tracking-tight mt-4 mb-12 lg:mb-16">
                 Why Us

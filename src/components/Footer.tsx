@@ -20,10 +20,10 @@ export default function Footer() {
           <p className="text-label uppercase tracking-[0.2em] text-white/50 mb-6">
             The Office Hire
           </p>
-          <h2 className="text-display font-bold tracking-tight leading-[1.0] max-w-3xl">
-            RECRUITMENT
+          <h2 className="text-display font-bold tracking-tight leading-[1.0] max-w-6xl">
+            RECRUITMENT WITHOUT THE NOISE.
             <br />
-            WITHOUT THE NOISE.
+            CAMPAIGNS WITHOUT HUSTLE.
           </h2>
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function Footer() {
                 href="mailto:hello@theofficehire.com"
                 className="block text-body text-white/70 hover:text-white transition-colors duration-200"
               >
-                info@theofficehire.com
+                contact@theofficehire.com
               </a>
               <a
                 href="tel:+919211023617"
