@@ -6,7 +6,7 @@ const NAV_LINKS = [
   { label: 'Home', to: '/' },
   { label: 'For Employers', to: '/employers' },
   { label: 'For Job Seekers', to: '/job-seekers' },
-  { label: 'Opportunities', to: '/opportunities' },
+  { label: 'Social Media & PR', to: '/opportunities' },
   { label: 'How It Works', to: '/how-it-works' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },

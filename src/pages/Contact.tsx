@@ -91,13 +91,13 @@ export default function Contact() {
                     <div>
                       <p className="text-label uppercase tracking-[0.15em] text-grey mb-2">Employers</p>
                       <a href="mailto:hello@theofficehire.com" className="text-body-lg text-black hover:text-grey transition-colors duration-200">
-                        info@theofficehire.com
+                        contact@theofficehire.com
                       </a>
                     </div>
                     <div>
                       <p className="text-label uppercase tracking-[0.15em] text-grey mb-2">Job Seekers</p>
                       <a href="mailto:hello@theofficehire.com" className="text-body-lg text-black hover:text-grey transition-colors duration-200">
-                        info@theofficehire.com
+                        contact@theofficehire.com
                       </a>
                     </div>
                     <div>
@@ -106,7 +106,7 @@ export default function Contact() {
                         +91 92110 23617
                       </a>
                       <p className="text-body-lg text-grey-dark mt-1">
-                        City, India
+                        Greater Noida, UP, India
                       </p>
                     </div>
                   </div>
