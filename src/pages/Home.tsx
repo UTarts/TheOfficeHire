@@ -47,7 +47,7 @@ export default function Home() {
                     <Button to="/job-seekers" variant="secondary" fullWidth>
                       For Job Seekers
                     </Button>
-                    <Button to="/employers" variant="primary" fullWidth>
+                    <Button to="/opportunities" variant="primary" fullWidth>
                       For PR and Social Media
                     </Button>
                   </div>
